@@ -4,7 +4,7 @@
   "description": "Pure javascript full stack app with complex application with chat, posts, follow functionalities",
   "main": "app.js",
   "scripts": {
-    "watch": "nodemon app",
+    "watch": "nodemon db",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "mongodb": "^3.6.3",
     "nodemon": "^2.0.6",
     "validator": "^13.5.2"
   }

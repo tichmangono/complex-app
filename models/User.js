@@ -1,3 +1,4 @@
+const usersCollection = require("../db").collection("users")
 const validator = require("validator")
 
 //construcor function, can be leverage
@@ -58,6 +59,9 @@ User.prototype.register = function () {
   this.validate()
   //Step #2: only if there are no validation errors
   // then save user data into a database
+  if (!this.errors.length) {
+    usersCollection.insertOne(this.data)
+  }
 }
 
 module.exports = User
