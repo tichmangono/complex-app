@@ -11,3 +11,6 @@ Pure javascript full stack app with complex application with chat, posts, follow
 - `npm install ejs`
 - `npm install nodemon`
 - make `router` file
+- make `controllers` folder - `userController.js`, `postController.js`, `followController.js`
+- implement user validation, with normal js and `validator`
+- make `models` folder - User, Post, Follow
