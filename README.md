@@ -17,3 +17,4 @@ Pure javascript full stack app with complex application with chat, posts, follow
 - `npm install mongodb` and create new free cluster with `users` collection in web version.
 - whitelist all IPs 0.0.0.0/0 in mongodb
 - make `db.js`, change npm run watch script to watch this file instead
+- use separate file `.env` to store connection string and flexible port number, needs `dotenv` package
