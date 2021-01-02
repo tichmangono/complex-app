@@ -20,3 +20,4 @@ Pure javascript full stack app with complex application with chat, posts, follow
 - use separate file `.env` to store connection string and flexible port number, needs `dotenv` package
 - `npm install bcrypt` for hashing user passwords
 - `npm install express-session` for sessions and cookies
+- `npm connect-mongo` to store sessions into mongodb
