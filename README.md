@@ -19,3 +19,4 @@ Pure javascript full stack app with complex application with chat, posts, follow
 - make `db.js`, change npm run watch script to watch this file instead
 - use separate file `.env` to store connection string and flexible port number, needs `dotenv` package
 - `npm install bcrypt` for hashing user passwords
+- `npm install express-session` for sessions and cookies
