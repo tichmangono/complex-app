@@ -21,3 +21,4 @@ Pure javascript full stack app with complex application with chat, posts, follow
 - `npm install bcrypt` for hashing user passwords
 - `npm install express-session` for sessions and cookies
 - `npm connect-mongo` to store sessions into mongodb
+- `npm connect-flash` for flash messages
