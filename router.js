@@ -14,4 +14,7 @@ router.get("/create-post", userController.mustBeLoggedIn, postController.viewCre
 router.post("/create-post", userController.mustBeLoggedIn, postController.create)
 router.get("/post/:id", postController.viewSingle)
 
+//404 error page route
+router.get("/404-error", postController.viewSingle)
+
 module.exports = router
